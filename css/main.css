@@ -77,20 +77,15 @@
             font-size: 28px; 
             text-align: center;
         }
-    }
-
-    .hero-container {
         .hero-text {
             top: 45%;
-            font-size: 14px; 
+            font-size: 18px; 
             font-family: "Open-Sans";
-            text-shadow: 1px 1px #000000;
-            color: #91402a;
-            
+            text-shadow: 1px 1px #cca291;
+            color: #b1160e;
+            font-weight: bolder;
         }
-    }
 
-    .hero-container {
         .hero-button {
             top: 60%;
             font-size: 18px; 
@@ -191,6 +186,7 @@
         font-size: 14px;
         padding: 8px;
     }
+
 }
 
 
@@ -215,7 +211,7 @@
     }
 
     .nav-links a:hover {
-        color: yellow;
+        color: rgb(255, 255, 0);
     }
     .menu-toggle {
         display: none;
@@ -290,11 +286,11 @@
 
 .hero-head-text {
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(201, 51, 1); 
-    font-size: 90px;
+    font-size: 120px;
     white-space: nowrap;
     font-family: "Italiana", serif;
     text-shadow: 1px 1px #000000;
@@ -304,14 +300,14 @@
 
 .hero-text {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #d02d00;
-    font-size: 28px;
+    color: #a73f19;
+    font-size: 40px;
     text-align: center;
     font-family: "Open Sans", sans-serif;;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 2px 2px #000000;
     font-weight:bolder;
 
 }
@@ -563,14 +559,39 @@ html {
 .gallery-container {
     display: flex;
     justify-content: space-around;
-    padding: 30px;
     width: 100%;
+    margin: 0 auto;
+
 }
 
 .gallery-container img {
     width: 400px;
     height: auto;
     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .gallery-container {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-container  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+
+    .gallery-container img {
+        width: 100%;
+        max-width: 600px; 
+    }
+
 }
 
 footer {
