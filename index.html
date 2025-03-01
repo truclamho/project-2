@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> Nocturne Masquerade </title>
+  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!-- Place your site's HTML here -->
+  <div class="container">
+    <header class="masquerade-header">
+
+      <div class="logo-container">
+        <img src="img/nocturne.png" alt="nocturne"/>
+      </div>
+    
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+<nav class="nav-links" id="nav-links">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#rules">Rules</a>
+  <a href="#reserve">Reserve</a>
+  
+</nav>
+
+
+    </header>
+
+    <main> 
+      <section id="home">
+      <div class="hero-container">
+        <img class="hero-image" src="img/ballroom2.png" alt="" width="100%"/>
+        <h1 class="hero-head-text"> Welcome to the Masquerade </h1>
+        <h2 class="hero-text"> A fairytale come to life! Your future is in your hand, so tell me, are you ready to take the next step? </h2>
+        <a href="#reserve" class ="hero-button"> RSVP NOW</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-container">
+        <img class="ballroom5-image" src="img/ballroom5.png" alt="" width=""/>
+          <div class="wrap-text">
+            <h3 class="about-heading"> Who We are </h3>
+            <p class="about-text"> Have you ever felt envious about the fictional world you read about in books or watch in movies? 
+              We understand how you feel, really! Life can be so boring and dull, no longer holding the extravagance and royalty of the past.
+              That is why we exist. We hear your heart’s desire and are here to grant your wish. Here at Nocturne, you can be yourself and 
+              spend a once in a life time opportunity to be the main character of your life. Here, things such as gender, social standings, 
+              and ethnicity hold no value as no one will know who you are. Whether you're royalty in disguise or just looking for a bit of 
+              excitement, everyone is invited to escape reality. Discover new people, discover a self you never knew, maybe even fall in 
+              love and create your own fairytale. Nocturne is proud to welcome you, come and enjoy the night, and tell us, can fairytales really exist? </p>
+          </div>
+      </div>
+    </section>
+
+      <div class="prince-container">
+          <div class="wrap-text">
+            <h3 class="prince-heading"> Become a Princess </h3>
+            <p class="prince-text"> During this special event, Prince Suho will be attending! He is
+              looking for a wife to love and cherish, as per his father's wish. Do you think you stand 
+            a chance? Come test your luck out and see if you can get the prince for fall for you. Disclaimer:
+          We are not responsible if he runs away from you or if your father-in-law hates you. </p>
+          </div>
+          <img class="prince-image" src="img/boy2.png" alt="" width=""/>
+      </div>
+
+
+    <section id="rules">
+      <div class="rules-container">
+        <h3 class="rule-heading"> Rules of Nocturne </h3>
+        <div class="rule-box">
+          <p>1. Never reveal yours or anyone's identity.</p>
+        </div>
+        <div class="rule-box">
+          <p>2.Everyone is on the same level here.</p>
+        </div>
+        <div class="rule-box">
+          <p>3. If secrets are shared, make sure they never leave this place.</p>
+        </div>
+      </div>
+      </section>
+
+
+    <section id="reserve">
+      <div class="reserve-container">
+        <div class="wrap-text">
+        <h3 class="reserve-heading"> Interested? RSVP Now! </h3>
+        
+        <div class="form-container">
+          <form id="rsvp-form">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" required><br><br>
+        
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" required><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" required><br><br>
+        
+            <fieldset>
+              <legend>Will you have a partner?</legend>
+              <label><input type="radio" name="partner" value="yes"> Yes</label>
+              <label><input type="radio" name="partner" value="no"> No</label>
+            </fieldset>
+        
+            <label for="file">Upload ID:</label>
+            <input type="file" id="file" name="file" required><br><br>
+        
+            <button type="submit" class="reserve-button">Reserve</button>
+          </form>
+        
+          <div id="thank-you-message" class="hidden">
+            <p>Thank you for your RSVP! We hope to see you soon, your future awaits!</p>
+          </div>
+        </div>
+      
+         </div>
+
+      <img class="reserve-image" src="img/ballroom6.png" alt="" width=""/>
+    </div>
+    </section>
+      </main>
+
+      <footer> 
+        <h3> For more information, contact us:</h3>
+        <p> <a href="mailto:nocturnemasquarade">nocturnemasquarade@gmail.com</a> </p>
+      </footer>
+  </div>
+  
+  <script src="js/main.js"></script>
+</body>
+
+</html>
