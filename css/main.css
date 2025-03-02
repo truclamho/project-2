@@ -49,6 +49,13 @@
         color: black;
         text-decoration: none;
         font-size: 18px;
+
+    }
+
+    .nav-links a:hover {
+        background-color: #843C2F;
+        color: #DBCFAB;
+
     }
 
     .menu-toggle {
